@@ -1,0 +1,11 @@
+parei na pag 244
+
+COISAS ALEM:
+adicionar subcategoria - menu a direita em list
+adicionar possib. de preco desconto
+adicionar rotulos em produto como Novo, "Sale", etc
+adicionar qtde (estoque) produtos
+possib de multiplas imagens por produto
+reviews de produto
+
+Campo de descricao do produto com detalhes

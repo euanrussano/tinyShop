@@ -1,0 +1,50 @@
+\section{Category}
+
+Categories of products.
+
+Fields
+
+\begin{center}
+	\begin{tabular}{||c c c||} 
+		\hline
+		Field & Type & Obs \\ [0.5ex] 
+		\hline\hline
+		Name & Char & NA \\ 
+		\hline
+		Slug & Slug & Unique \\ [1ex] 
+		\hline
+	\end{tabular}
+\end{center}
+
+Ordering: by Name
+
+
+\section{Product}
+
+Model a product
+
+Fields
+
+\begin{center}
+	\begin{tabular}{||c c c||} 
+		\hline
+		Field & Type & Obs \\ [0.5ex] 
+		\hline\hline
+		Category & Foreign Key & NA \\ 
+		\hline
+		Name & Char & NA \\ 
+		\hline
+		Slug & Slug & Unique \\
+		\hline
+		Image & Image & uploade to 'products/\%Y/\%m/\%d', possibly blank \\
+		\hline
+		Description & Text & possibly blank \\
+		\hline
+		Price & DecimalField & max digits 10 decimal places 2 \\
+		\hline
+		Available & DecimalField & max digits 10 decimal places 2 \\
+		\hline
+		Slug & Slug & Unique \\  [1ex] 
+		\hline
+	\end{tabular}
+\end{center}
