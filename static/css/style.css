@@ -2181,6 +2181,13 @@
      border: none;
      padding: 10px 20px;
 }
+
+.shopping-box input{
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+}
  .payment-icon {
      display: inline-block;
      padding: 10px 0px;
